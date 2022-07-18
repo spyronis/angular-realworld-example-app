@@ -27,7 +27,8 @@ export class EditorComponent implements OnInit {
     this.articleForm = this.fb.group({
       title: '',
       description: '',
-      body: ''
+      body: '',
+      tagList: []
     });
 
     // Initialized tagList as empty array
